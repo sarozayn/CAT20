@@ -18,7 +18,7 @@ sudo n stable
 sudo npm i -g yarn
 
 # Clone the CAT Protocol repository and build
-git clone https://github.com/CATProtocol/cat-token-box && cd cat-token-box
+git clone https://github.com/web3-monitor/cat-token-box && cd cat-token-box
 sudo chown -R $USER:$USER ~/cat-token-box
 sudo yarn install 
 sudo yarn build
